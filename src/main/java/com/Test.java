@@ -8,6 +8,7 @@ import java.util.ServiceLoader;
 /**
  * Created by Administrator on 2017/12/28 0028.
  */
+//test
 public class Test {
     public static void main(String[] args) {
         ServiceLoader<HelloInterface> serviceLoader=ServiceLoader.load(HelloInterface.class);
