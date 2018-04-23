@@ -10,7 +10,7 @@ import java.util.ServiceLoader;
  */
 public class Test {
     public static void main(String[] args) {
-        // test
+        // 测试回滚
         ServiceLoader<HelloInterface> serviceLoader=ServiceLoader.load(HelloInterface.class);
         Iterator<HelloInterface> it = serviceLoader.iterator();
         while (it!=null && it.hasNext()) {
